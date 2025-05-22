@@ -1,6 +1,6 @@
-using System;
-
 namespace ArrayProblems;
+
+using System;
 
 class TwoSum {
 
