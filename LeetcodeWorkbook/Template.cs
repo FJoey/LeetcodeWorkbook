@@ -2,7 +2,7 @@ namespace ArrayProblems;
 
 using System;
 
-class TwoSum
+class Template
 {
 
     public static void run()
