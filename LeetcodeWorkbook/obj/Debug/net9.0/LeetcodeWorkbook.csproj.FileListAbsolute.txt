@@ -12,3 +12,4 @@ C:\Users\secay\Documents\Projects\Data Structures and Algoirthms\Leetcode\Workbo
 C:\Users\secay\Documents\Projects\Data Structures and Algoirthms\Leetcode\Workbook\LeetcodeWorkbook\obj\Debug\net9.0\LeetcodeWorkbook.pdb
 C:\Users\secay\Documents\Projects\Data Structures and Algoirthms\Leetcode\Workbook\LeetcodeWorkbook\obj\Debug\net9.0\LeetcodeWorkbook.genruntimeconfig.cache
 C:\Users\secay\Documents\Projects\Data Structures and Algoirthms\Leetcode\Workbook\LeetcodeWorkbook\obj\Debug\net9.0\ref\LeetcodeWorkbook.dll
+C:\Users\secay\Documents\Projects\Data Structures and Algoirthms\Leetcode\Workbook\LeetcodeWorkbook\obj\Debug\net9.0\LeetcodeWorkbook.sourcelink.json
