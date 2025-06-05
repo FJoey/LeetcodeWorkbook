@@ -84,7 +84,7 @@ class TwoSum
         return arr;
     }
 
-    // Suggested Solution (Otabek via Leetcode)
+    // Suggested Solution (user Otabek via Leetcode)
     /*
      *
         Approach

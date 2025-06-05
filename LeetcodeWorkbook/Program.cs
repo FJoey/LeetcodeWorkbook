@@ -4,6 +4,10 @@ class Program
 {
     static void Main()
     {
-        TwoSum.run();
+        /*
+         * BLIND 75
+         */
+        LongestConsecutiveSequence.run();
+        // TwoSum.run();
     }
 }
