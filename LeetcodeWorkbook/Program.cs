@@ -7,8 +7,8 @@ class Program
         /*
          * BLIND 75
          */
-        // TwoSum.run();
+        TwoSum.run();
         // LongestConsecutiveSequence.run();
-        LongestSubstringWithoutRepeatingCharacters.run();
+        // LongestSubstringWithoutRepeatingCharacters.run();
     }
 }

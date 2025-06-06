@@ -1,6 +1,7 @@
 namespace ArrayProblems;
 
 using System;
+using System.Collections;
 
 class TwoSum
 {
@@ -53,9 +54,29 @@ class TwoSum
 
     // --------------------TwoSum: New attempts, past attempts, and suggested solutions
     // New attempts go here 
+    public static int[] twoSum(int[] nums, int target)
+    {
+        Hashtable hashtable = new Hashtable();
+
+        foreach (int num in nums)
+        {
+            if (hashtable.Contains(target - num))
+            {
+                int[] arr = { nums[num], nums[target - num] };
+                return arr;
+            }
+            else
+            {
+                hashtable.Add(num, nums[num]);
+            }
+        }
+
+        int[] arr1 = { 0, 0 };
+        return arr1;
+    }
 
     // Accepted -> beats 96.19% (Memory) and 10.64% (Runtime)
-    public static int[] twoSum(int[] nums, int target)
+    public static int[] twoSum1(int[] nums, int target)
     {
         int[] arr = { 0, 0 };
         bool targetReached = false;
@@ -89,7 +110,7 @@ class TwoSum
      *
         Approach
 
-        1. Create a hash table (num_map) to store numbers along with their indices.
+        1. Create a hash table/dictionary (num_map) to store numbers along with their indices.
         
         2. Iterate through the array:
             Compute the complement of the current number (target - num).
@@ -100,7 +121,7 @@ class TwoSum
         3. Since there is exactly one solution, we are guaranteed to find a valid pair.
      *
      */
-        public int[] TwoSumSuggested(int[] nums, int target)
+    public int[] TwoSumSuggested(int[] nums, int target)
     {
         Dictionary<int, int> numMap = new Dictionary<int, int>(); // A mapping to store numbers and their indices
         for (int i = 0; i < nums.Length; i++)
